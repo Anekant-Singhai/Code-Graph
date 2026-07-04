@@ -1,0 +1,8 @@
+stages:
+  - load
+  - featurize
+  - score
+  - write
+runtime:
+  retries: 2
+  mode: local
